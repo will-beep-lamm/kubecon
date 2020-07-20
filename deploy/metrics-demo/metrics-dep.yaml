@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: metrics-demo
-        image: quay.io/brice/metrics-demo
+        image: quay.io/brice/metrics-demo:master-a1560c8
         command:
         - ./metrics-demo
         - --port=3000
